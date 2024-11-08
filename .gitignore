@@ -12,10 +12,14 @@
 
 # Local .terraform directories
 **/.terraform/*
+**/remote-state/*
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+# share files
+*.share
 
 # Crash log files
 crash.log
@@ -44,3 +48,4 @@ terraform.rc
 .envrc*
 
 *.hcl
+*.tfvars
